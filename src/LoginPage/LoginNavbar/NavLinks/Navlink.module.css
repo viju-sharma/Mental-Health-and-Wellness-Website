@@ -1,0 +1,52 @@
+
+.Navlinklist{
+    width: 100%;
+    margin: 150px auto;
+    list-style: none;
+    display: block;
+}
+
+.Navlink{
+    margin: 0 auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-decoration: none;
+    position: relative;
+    left: 80px;
+}
+
+.Navlink:hover{
+    color: rgb(226, 226, 226);
+}
+
+.show{
+    animation: showing 0.3s linear;
+}
+
+@keyframes showing{
+    0%{
+        opacity: 0%;
+    }
+    70%{
+        opacity: 5%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.hide{
+    opacity: 0%;
+    animation: hiding 0.1s linear;
+}
+
+@keyframes hiding{
+    0%{
+        opacity: 100;
+    }
+    100%{
+        opacity: 0;
+    }
+}

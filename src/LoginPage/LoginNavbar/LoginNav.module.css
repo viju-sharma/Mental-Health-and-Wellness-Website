@@ -1,0 +1,17 @@
+.Nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 6%;
+    transition: width 0.5s linear;
+    background-color: rgb(0, 0, 68);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.6s ease-out;
+    z-index: 2;
+}
+
+.Nav:hover{
+    width: 30%;
+}
